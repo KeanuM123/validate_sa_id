@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
 public class ValidateSaId {
+    // check if Id number is 13 digits long
     public static boolean isIdNumberValid(String idNumber) {
         if (idNumber == null || idNumber.length() != 13 || !idNumber.matches("\\d{13}")) {
             return false;
