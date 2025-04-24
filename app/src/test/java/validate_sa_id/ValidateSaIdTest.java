@@ -1,6 +1,9 @@
 package validate_sa_id;
 
 import org.junit.jupiter.api.Test;
+
+import validate_sa_id.ValidateSaId;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ValidateSaIdTest {
