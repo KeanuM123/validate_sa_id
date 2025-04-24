@@ -18,8 +18,8 @@ public class ValidateSaId {
         }
 
         // Gender digits (SSSS)
-        int genderCode = Integer.parseInt(idNumber.substring(6, 10));
-        if (genderCode < 0 || genderCode > 9999) {
+        int genderDigits = Integer.parseInt(idNumber.substring(6, 10));
+        if (genderDigits < 0 || genderDigits > 9999) {
             return false;
         }
 
