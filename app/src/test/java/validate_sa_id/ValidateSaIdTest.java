@@ -47,7 +47,7 @@ public class ValidateSaIdTest {
 
     @Test
 public void testMyCustomId() {
-    assertTrue(ValidateSaId.isIdNumberValid("0206285493089")); // own ID number
+    assertTrue(ValidateSaId.isIdNumberValid("0206285493089")); // own ID number test
 }
 
 }
